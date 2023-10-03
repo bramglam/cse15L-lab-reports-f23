@@ -8,6 +8,10 @@ No Arguments:
 [user@sahara ~]$ 
 
 ```
+The working directory where the command was run is /home/lecture1 .
+
+The output simply changed the directory to the root directory, removing ~/lecture1 from the square brackets. It had no arguments because nothing was included after the command. The output is not an error.
+
 
 Path to Directory:
 ```shell
@@ -16,6 +20,7 @@ Path to Directory:
 [user@sahara ~/lecture1/messages]$ 
 
 ```
+The working directory where the command was run is /home. 
 Path to File:
 
 ```shell
@@ -24,6 +29,7 @@ Path to File:
 bash: cd: ./lecture1/messages/es-mx.txt: Not a directory
 
 ```
+The pwd (present working directory) is /home.
 Command: ls
 No arguments:
 
@@ -31,6 +37,7 @@ No arguments:
 [user@sahara ~]$ ls
 **lecture1**
 ```
+The pwd (present working directory) is /home.
 Path to Directory:
 
 ```shell
@@ -38,6 +45,7 @@ Path to Directory:
 ar-bh.txt  es-mx.txt
 en-us.txt  zh-cn.txt
 ```
+The pwd (present working directory) is /home.
 Path to File:
 
 ```shell
@@ -46,6 +54,7 @@ ar-bh.txt  es-mx.txt
 en-us.txt  zh-cn.txt
 bash: /es-mx.txt: No such file or directory
 ```
+The pwd (present working directory) is /home.
 Command: cat
 No arguments:
 
@@ -54,17 +63,19 @@ No arguments:
 
 
 ```
+The pwd (present working directory) is /home.
 Path to Directory:
 
 ```shell
 [user@sahara ~]$ cat lecture1/messages
 cat: lecture1/messages: Is a directory
 ```
-
+The pwd (present working directory) is /home.
 Path to File:
 
 ```shell
 [user@sahara ~]$ cat lecture1/messages/en-us.txt
 Hello World!
 ```
+The pwd (present working directory) is /home.
 
