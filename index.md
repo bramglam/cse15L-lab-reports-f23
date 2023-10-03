@@ -9,13 +9,22 @@ No Arguments:
 
 ```
 
-Path to a Directory:
+Path to Directory:
 ```shell
 
 [user@sahara ~]$ cd ./lecture1/messages
 [user@sahara ~/lecture1/messages]$ 
 
 ```
+Path to File:
+
+```shell
+
+[user@sahara ~]$ cd ./lecture1/messages/es-mx.txt
+bash: cd: ./lecture1/messages/es-mx.txt: Not a directory
+
+```
+
 
 
 Command: ls
