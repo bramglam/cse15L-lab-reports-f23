@@ -1,6 +1,10 @@
-##Lab Report 1 - Remote Access and FileSystem (Week 1)
+## Lab Report 1 - Remote Access and FileSystem (Week 1)
 
-###Command: cd
+Brandon Xu
+A16642199
+10.10.2021
+
+### Command: cd
 No Arguments:
 ```shell
 
@@ -33,7 +37,7 @@ bash: cd: ./lecture1/messages/es-mx.txt: Not a directory
 The pwd (present working directory) is /home. The output attempts to change the directory to ./lecture1/messages/es-mx.txt, but this results in an error. The error is due to the fact that es-mx.txt is not a directory, but a file. Thus it cannot execute the command on a file.
 
 
-###Command: ls
+### Command: ls
 No arguments:
 
 ```shell
@@ -61,7 +65,7 @@ bash: /es-mx.txt: No such file or directory
 ```
 The pwd (present working directory) is /home. The command attempts to list out all the files within a file instead of a directory, resulting in an error. The argument given to ls is a path to a file.
 
-###Command: cat
+### Command: cat
 No arguments:
 
 ```shell
